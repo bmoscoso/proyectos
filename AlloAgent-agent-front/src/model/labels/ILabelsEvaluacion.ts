@@ -1,0 +1,30 @@
+export interface ILabels {
+    FechaAnalisis: string;
+    FechaGestion: string;
+    FechaSubida: string;
+    IDScript: string;
+    MT_Folio: string;
+    agente: string;
+    audio: string;
+    campania: string;
+    cat_weight: string;
+    categoria: string;
+    cliente: string;
+    cod: string;
+    elemento_explicito: string;
+    encontrado: string;
+    id_cat: string;
+    id_sub: string;
+    noencontrado: string;
+    puntaje: string;
+    subcat_weight: string;
+    subcategoria: string;
+    tipo_llamada: string;
+    TotalPuntaje: string;
+    _id: object
+    TotalPuntaje1: string;
+    TotalPuntaje2: string;
+    TotalPuntaje3: string;
+    Ponderacion: string;
+    Encontrado: string;
+}
