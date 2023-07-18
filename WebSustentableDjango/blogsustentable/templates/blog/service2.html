@@ -1,0 +1,134 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+
+{% block content %}   
+
+    <link rel="stylesheet" href="{% static 'css/services.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+    <section id="seccionintermediaservicio">
+        <div class="row">
+          <div class="col-lg-12 col-md-8 col-sm-4 col-xs-12">
+            <div class="p-2">
+              <h1 class="" align="center">Servicios de Pinturas, Carpintería y Gasfitería</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+        <section id="Servicio2Part1">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-3">
+                        <img id="foto1" src="{% static 'Img/radiadorHD.png' %}" alt="">
+                </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-5">
+                    <h2 class="titulos">Mantenimiento a Sistemas de Calefacción Central.</h2>
+                    <p class="textoservicios">La calefacción central, es una instalación centralizada en la que la producción de calor es única para
+                        todo el
+                        edificio, realizándose su distribución desde la central generadora a las correspondientes unidades
+                        calefactoras
+                        por
+                        medio de fluidos térmicos. Nuestra sugerencia, es efectuar el procedimiento de mantenimiento por lo
+                        menos una
+                        vez al
+                        año, para evitar la acumulación de barro, oxido, etc., en los radiadores.</p>
+                    <br>
+                    <p class="textoservicios">La foto muestra un radiador sin mantención por el periodo de un año. El agua con la que esta limpiando el
+                        radiador
+                        sale teñida de negro por el arrastre de sarro, oxido y barro que mantenía en su interior, impidiendo la
+                        circulación
+                        del agua caliente y por lo tanto que el radiador calentara.
+                        Si el cliente lo solicita se puede implementar un programa de mantenimiento, el que se llevará a cabo
+                        según
+                        programación acordada.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Servicio2Part2">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-4">
+                        <h2>Venta, Selección, Montaje e Inspección de Juntas de Expansión:</h2>
+
+                        <p class="textoservicios2"> Las juntas de expansión o compensadores de
+                            dilatación
+                            son elementos que permiten movimientos o desplazamientos relativos entre sus extremos sin
+                            deformarse. El
+                            elemento
+                            principal de una junta de expansión es el fuelle. El fuelle debe ser lo suficientemente resistente
+                            como
+                            para
+                            aguantar la presión del fluido, y flexible para deformarse, pero al mismo tiempo ser capaz de volver
+                            a
+                            su
+                            posición
+                            original. El fuelle además debe ser seleccionado de acuerdo con las características químicas del
+                            fluido.
+                            El
+                            fuelle
+                            puede ser de caucho, metálico, de Teflón, de tela, etc.
+                            Si el cliente lo solicita, se prestara asesoría para la correcta selección de estas según su
+                            operación.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-3">
+                    <img id="foto2" src="{% static 'Img/pieza_metal.png' %}" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="Servicio2Part3">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-3">
+                        <img id="foto1" src="{% static 'Img/generadorHD.png' %}" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-3">
+                        <h2 class="titulos">Mantenimiento a Generadores a Combustión Interna.</h2>
+                    <p class="textoservicios">
+                        Los generadores de combustión interna son equipos que requieren de mantención según sus periodos de
+                        trabajo e
+                        indicados por el fabricante del equipo en su pauta de mantenimiento, por lo que sugiere el estricto
+                        apego a esta
+                        pauta.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-8 col-sm-4 col-xs-12">
+                    <div class="p-4">
+                        <img id="foto1" src="{% static 'imagenes/combustion.png' %}" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        {% endblock %}
